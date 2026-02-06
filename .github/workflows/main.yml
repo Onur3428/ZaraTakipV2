@@ -2,7 +2,7 @@ name: Zara Stok Kontrol V2
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # BURASI ÖNEMLİ: Her 30 dakikada bir çalışır.
+   - cron: "0 * * * *"  # Her saatin başında (60 dakikada bir) çalışır.
   workflow_dispatch:        # Elle "Run" butonuna basarak da çalıştırabilirsin.
 
 jobs:
